@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="TY.css"/>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <meta charset="utf-8" />
+    <title>Hot Beans Web Development</title>
+
+<div class="HeaderRow">
+    <div class="HeaderColumnLeft">
+    </div>
+<div class: "HeaderColumnRight>
+
+<div class="LogoCorner">
+<table>
+<tr>
+<td><img width=50 height=50 src="fb_icon.png"><td>
+<td><img width=50 height=50 src="tt_icon.png"><td>
+</tr>
+</table>
+</div>
+<div class= "LogoCornerBelow">
+<table>
+<tr>
+<td><img width=50 height=50 src="ig_icon.png"><td>
+<td><img width=50 height=50 src="x_icon.png"><td>
+</tr>
+</table>
+</div>
+<div class="header">
+    <h1>Hot Beans Web</h1>
+  </div>
+<div class="TopNav">
+    <a href="index.html">Home</a>
+    <a href="MeettheTeam.html">Meet the Team</a>
+    <a href="about_the_role.html">About the role</a>
+    <a href="applicationPage.html">Apply now </a>
+    <a href="WebDevCourses">Web Development courses</a>
+</div>
+
+
+  <h2 style="font-family: tahoma; background-color: #10336a; color:white;text-align: center;font-size:80px"> Thank you for applying for a role at Hot Beans Web!</h2>
+<p style="font-family: century gothic;background-color: #10336a;color: white;text-align: center;font-size:30px"> We will be in contact with you to let you know whether or not you will be invited to an interview.</p>
+
+
+    <!-- footer element everything is in the CSS-->
+    <div class="footer">
+    <script>
+        //function that runs onclick of the button to check the browser version
+        function CheckBrowser()
+        {
+
+            var appVersion = window.navigator.appVersion;
+
+            //using search not includes to make it compatible with current browser versions
+            //IE app version contains the words "Trident"
+            //if this if NOT found, the search function returns -1
+            if (appVersion.search("Trident") > -1)
+            {
+                alert("you are using Internet Explorer as a browser");
+            }
+            //Edge app version contains the words "Edge"
+            //if this if NOT found, the search function returns -1
+            else if (appVersion.search("Edge") > -1)
+            {
+                alert("you are using Microsoft Edge as a browser");
+            }
+            //this has only been checked with Edge, IE and Chrome. You will need to check the appVersion for safari.
+            else
+            {
+                alert("you are using Google Chrome as a browser");
+            }
+        }
+
+    </script>
+    </div>
+
+</body>
+</html>

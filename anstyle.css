@@ -1,0 +1,144 @@
+ body {
+    margin: 10 px;
+    background-color: white
+}
+.HeaderColumnLeft {
+    background-image: url(file.png);
+    background-repeat: no-repeat;
+    float: left;
+    width: 20%;
+    height: 23vh
+}
+
+
+
+.header {float: left;margin-left:10vw;
+    padding: 1px;
+    text-align: center;
+    background: #ffffff;
+    color: #10336a;
+    font-size: 2vw;
+    font-family: tahoma;
+    text-transform: uppercase;
+    letter-spacing: 5px
+}
+
+.LogoCorner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-bottom: 10px
+}
+
+.LogoCornerBelow {
+    right: 0;
+    top: 10;
+    position: absolute;
+    padding-top: 60px
+}
+
+
+
+
+
+.TopNav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #10336a;
+    width: 100%
+}
+
+    .TopNav a {
+        float: left;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        font-size: 1.3vw;
+        font-family: tahoma;
+        width: 18%;
+        text-align: center
+    }
+
+        .TopNav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .TopNav a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .traineeRole{padding-left:10px;padding-right:10px;border: solid;border-color: #10336a;font-family: tahoma;width:auto;display: inline-block;margin-left:5vw;margin-right: 200px;margin-bottom: 100px;font-size:1vw}
+.juniorRole {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+    border-color: #10336a;
+    font-family: tahoma;
+    width: auto;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 200px;
+    font-size: 1vw
+}
+.midRole {
+    padding-left: 10px;
+    border: solid;
+    border-color: #10336a;
+    font-family: tahoma;
+    width: auto;
+    display: inline-block;
+    font-size: 1vw
+}
+.seniorRole {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+    border-color: #10336a;
+    font-family: tahoma;
+    width: auto;
+    display: inline-block;
+    margin-left: 270px;
+    font-size: 1vw;margin-left:20vw
+}
+.leaderRole {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid;
+    border-color: #10336a;
+    font-family: tahoma;
+    width: auto;
+    display: inline-block;
+    margin-left: 20px;
+    margin-left: 210px;
+    font-size: 1vw
+}
+
+
+    
+
+.applicationForm{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;}
+
+    .Error{
+        color:red;
+        font-weight:normal;font-family: century gothic;font-style: italic;
+    }
+    
+    label {
+        font-weight: bold;font-family: tahoma;
+    }
+    .input-box {  width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;}
+
+        .footer{background-color:#10336a;color:white;font-family:century gothic;padding-top:15px;padding-bottom:15px;padding-left:15px;text-align:left;width:100%;float:right}
